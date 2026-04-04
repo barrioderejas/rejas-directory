@@ -240,6 +240,28 @@ const businesses = [
         phone: "917 42 22 49",
         mapUrl: "https://maps.google.com/?q=Bar+Torres+Calle+Once+6+Madrid",
         image: "https://images.unsplash.com/photo-1514933651103-005eec06c04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        id: 30,
+        name: "Bar Cafetería La Leonesa",
+        category: "restauracion",
+        categoryLabel: "Bar - Cafetería",
+        description: "Clásico bar y cafetería ubicado en la Plaza Mayor de Ciudad Pegaso.",
+        address: "Plaza Mayor de Ciudad Pegaso, 28022 Madrid",
+        phone: "642 51 40 15",
+        mapUrl: "https://maps.google.com/?q=Bar+Cafeteria+La+Leonesa,+Plaza+Mayor+de+Ciudad+Pegaso,+Madrid",
+        image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+    },
+    {
+        id: 31,
+        name: "Parroquia de San Cristóbal",
+        category: "servicios",
+        categoryLabel: "Parroquia",
+        description: "Iglesia construida a mediados de los años cincuenta, situada en la Calle Tres. Destaca por su altar exterior en la fachada principal.",
+        address: "Calle Tres, 2, 28022 Madrid",
+        phone: "917 41 07 73",
+        mapUrl: "https://maps.google.com/?q=Parroquia+de+San+Cristóbal,+Calle+Tres,+2,+Madrid",
+        image: "https://images.unsplash.com/photo-1437603568260-1950d3ca6eaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
     }
 ];
 
