@@ -196,17 +196,6 @@ const businesses = [
         image: "farmacia ortopedia oca.jpg"
     },
     {
-        id: 26,
-        name: "Clínica Veterinaria Los Cachorros",
-        category: "servicios",
-        categoryLabel: "Veterinario",
-        description: "Clínica veterinaria para animales de compañía y exóticos. Consulta, cirugía, peluquería y laboratorio.",
-        address: "Calle Aramayona, 5 (Local 4A), 28022 Madrid",
-        phone: "918 31 19 95",
-        mapUrl: "https://maps.google.com/?q=Clinica+Veterinaria+Los+Cachorros+Madrid",
-        image: "clinica veterinaria los cachorros.webp"
-    },
-    {
         id: 27,
         name: "Hospital Veterinario Veterios",
         category: "servicios",
