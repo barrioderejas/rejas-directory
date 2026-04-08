@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Negocio - Barrio de Rejas</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .detail-container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            text-decoration: none;
+            color: #007bff;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .detail-card {
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+        .detail-img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+        .detail-body {
+            padding: 30px;
+        }
+        .detail-badge {
+            display: inline-block;
+            background-color: #f1f5f9;
+            color: #3b82f6;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .detail-desc {
+            font-size: 1.1rem;
+            color: #4b5563;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 25px;
+        }
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
+        .contact-icon {
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+        .contact-text strong {
+            display: block;
+            font-size: 0.9rem;
+            color: #64748b;
+            margin-bottom: 4px;
+        }
+        .contact-text a, .contact-text span {
+            color: #1e293b;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        .contact-text a:hover {
+            color: #3b82f6;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero" style="padding: 40px 20px;">
+        <div class="hero-content">
+            <h1 id="b-name">Cargando...</h1>
+        </div>
+    </header>
+
+    <main class="detail-container">
+        <a href="index.html" class="back-link">← Volver al directorio</a>
+        <div id="detail-card" class="detail-card">
+            <!-- El contenido se inyecta desde detalle.js -->
+            <div style="padding:40px; text-align:center;">Cargando información...</div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>Asociación del Barrio de Rejas &copy; 2026</p>
+        <p>Apoyando el comercio de proximidad y el espíritu comunitario.</p>
+    </footer>
+
+    <script src="data.js?v=2"></script>
+    <script src="detalle.js?v=2"></script>
+</body>
+</html>
