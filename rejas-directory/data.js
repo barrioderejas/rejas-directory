@@ -304,5 +304,14 @@ const businesses = [
         phone: "652 07 27 59",
         mapUrl: "https://maps.google.com/?q=Calle+Pirra,+34,+Madrid",
         image: "magic-sport.jpg"
+    },
+    {
+        id: 37,
+        name: "Bar Cola Beer",
+        category: "restauracion",
+        categoryLabel: "Bar / Cervecería",
+        description: "Tu nuevo lugar de encuentro preferido para disfrutar del ambiente en el barrio.",
+        address: "Barrio de Rejas, 28022 Madrid",
+        image: "bar-cola-beer.png"
     }
 ];
