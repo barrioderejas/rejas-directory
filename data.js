@@ -226,7 +226,7 @@ const businesses = [
         address: "Calle Once, 6, 28022 Madrid",
         phone: "917 42 22 49",
         mapUrl: "https://maps.google.com/?q=Bar+Torres+Calle+Once+6+Madrid",
-        image: "bar torres.jpg"
+        image: "bar-torres.jpg"
     },
     {
         id: 30,
@@ -237,7 +237,7 @@ const businesses = [
         address: "Plaza Mayor de Ciudad Pegaso, 28022 Madrid",
         phone: "642 51 40 15",
         mapUrl: "https://maps.google.com/?q=Bar+Cafeteria+La+Leonesa,+Plaza+Mayor+de+Ciudad+Pegaso,+Madrid",
-        image: "bar leonesa.jfif"
+        image: "bar-leonesa.jpg"
     },
     {
         id: 31,
