@@ -248,6 +248,6 @@ const businesses = [
         address: "Calle Tres, 2, 28022 Madrid",
         phone: "917 41 07 73",
         mapUrl: "https://maps.google.com/?q=Parroquia+de+San+Cristóbal,+Calle+Tres,+2,+Madrid",
-        image: "https://images.unsplash.com/photo-1437603568260-1950d3ca6eaa?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+        image: "iglesia-San-Cristobal.jpg"
     }
 ];
