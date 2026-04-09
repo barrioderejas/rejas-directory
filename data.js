@@ -20,7 +20,7 @@ const businesses = [
         address: "Calle Febrero, 4, 28022 Madrid",
         phone: "913 29 39 00",
         email: "ccjllopezvazquez@madrid.es",
-        image: "JLlopezVazquez[1].jpg"
+        image: "jllopezvazquez.jpg"
     },
     {
         id: 11,
@@ -249,5 +249,60 @@ const businesses = [
         phone: "917 41 07 73",
         mapUrl: "https://maps.google.com/?q=Parroquia+de+San+Cristóbal,+Calle+Tres,+2,+Madrid",
         image: "iglesia-San-Cristobal.jpg"
+    },
+    {
+        id: 32,
+        name: "Yaris Peluqueros",
+        category: "servicios",
+        categoryLabel: "Peluquería",
+        description: "Salón de peluquería y estética con atención personalizada en la zona de Las Mercedes.",
+        address: "Calle de Nanclares de Oca, 14, Local 4, 28022 Madrid",
+        phone: "913 12 19 53",
+        mapUrl: "https://maps.google.com/?q=Yaris+Peluqueros,+Calle+Nanclares+de+Oca,+14,+Madrid",
+        image: "peluqueria-yaris.webp"
+    },
+    {
+        id: 33,
+        name: "AME Peluqueros",
+        category: "servicios",
+        categoryLabel: "Peluquería / Barbería",
+        description: "Estudio de barbería y peluquería unisex ubicado en la zona de Ciudad Pegaso.",
+        address: "Plaza de San Cristóbal, 12, 28022 Madrid",
+        phone: "687 75 97 62",
+        mapUrl: "https://maps.google.com/?q=AME+Peluqueros,+Plaza+de+San+Cristóbal,+12,+Madrid",
+        image: "peluqueria-am.webp"
+    },
+    {
+        id: 34,
+        name: "Barber Shop Ángel Romero Redondo",
+        category: "servicios",
+        categoryLabel: "Barbería / Peluquería",
+        description: "Barbería y peluquería clásica para caballeros en Ciudad Pegaso.",
+        address: "Plaza de San Cristóbal, 2/3, 28022 Madrid",
+        phone: "91 320 91 09",
+        mapUrl: "https://maps.google.com/?q=Barber+Shop+Angel+Romero,+Plaza+de+San+Cristóbal,+Madrid",
+        image: "barberia-angel-romero.webp"
+    },
+    {
+        id: 35,
+        name: "Barbershop NEYO",
+        category: "servicios",
+        categoryLabel: "Barbería",
+        description: "Barbería especializada con servicio de cortes y arreglos para caballero.",
+        address: "Calle Ocho, 7, Local 4, 28022 Madrid",
+        phone: "624 040 278",
+        mapUrl: "https://maps.google.com/?q=Barbershop+NEYO+Calle+Ocho+7+Madrid",
+        image: "barbershop-neyo.webp"
+    },
+    {
+        id: 36,
+        name: "Magic Sport Barber Shop",
+        category: "servicios",
+        categoryLabel: "Barbería / Peluquería",
+        description: "Servicios: Corte premium, corte y barba premium, corte niños/jubilados, diseño de barba, coloración capilar y limpieza facial VIP.",
+        address: "C. de Pirra, 34, San Blas-Canillejas, 28022 Madrid",
+        phone: "652 07 27 59",
+        mapUrl: "https://maps.google.com/?q=Calle+Pirra,+34,+Madrid",
+        image: "magic-sport.jpg"
     }
 ];
